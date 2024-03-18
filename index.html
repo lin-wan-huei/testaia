@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1,user-scalable=no">
+	<title>天下學習 AI素養課程</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.cheers.com.tw/cwlearning/favicon.ico">
+	<meta name="description"
+		content="天下學習 AI素養課程 從個人到企業都需要的AI超能力。聯手推出臺灣第一套AI素養認證課程，從最入門的觀念著手，全產業工作者對使用AI最基本的普惠知識，深入淺出。課程包含5大實用主題：基礎知識與原理、工具應用與實務、倫理與社會影響、技術限制與前景及AI的規範與重要性帶你實作 AI 應用，理解深度學習，思考AI發展策略。">
+	<meta name="Keywords" content="">
+	<meta property="og:title" content="天下學習 AI素養課程">
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://site.cwlearning.com.tw/events/aiatalent/index.htm" />
+	<meta property="og:site_name" content="天下學習 AI素養課程" />
+	<meta property="og:locale" content="zh_TW" />
+	<meta property="og:description"
+		content="天下學習 AI素養課程 從個人到企業都需要的AI超能力。聯手推出臺灣第一套AI素養認證課程，從最入門的觀念著手，全產業工作者對使用AI最基本的普惠知識，深入淺出。課程包含5大實用主題：基礎知識與原理、工具應用與實務、倫理與社會影響、技術限制與前景及AI的規範與重要性帶你實作 AI 應用，理解深度學習，思考AI發展策略。">
+	<meta property="og:image" content="assets/images/fb.jpg" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+	<link href="assets/css/reset.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/style.min.css">
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-MLNC3NT');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Meta Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '626678568584017');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=626678568584017&ev=PageView&noscript=1" /></noscript>
+	<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLNC3NT" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<span class="js--pageFade js--pageFadeOut"></span>
+	<header>
+		<button type="button" class="menuToggle" onclick="menuToggle()"><span></span></button>
+		<nav class="menu">
+			<a href="index.html#menu1" class="menuLink" title="學習AI的全新理念"><img src="assets/images/tt_1.png"
+					alt="學習AI的全新理念"></a>
+			<a href="index.html#menu6" class="menuLink" title="誰適合學"><img src="assets/images/tt_6.png" alt="誰適合學"></a>
+			<a href="index.html#menu2" class="menuLink" title="課程說明"><img src="assets/images/tt_2.png" alt="課程說明"></a>
+			<a href="index.html#menu3" class="menuLink" title="課程購買資訊"><img src="assets/images/tt_3.png"
+					alt="課程購買資訊"></a>
+			<a href="index.html#menu4" class="menuLink" title="證書證明"><img src="assets/images/tt_4.png" alt="證書證明"></a>
+			<a href="index.html#menu5" class="menuLink" title="FAQ"><img src="assets/images/tt_5.png" alt="FAQ"></a>
+		</nav>
+	</header>
+
+	<section class="kvBlock">
+		<div class="kvBlock__video wow fadeIn" data-wow-delay="250ms">
+			<video src="assets/video/kv_bg_video.mp4" autoplay muted loop></video>
+		</div>
+		<div class="kvBlock__container">
+			<img src="assets/images/logo_cw_learning.png" alt="天下學習" class="cwlogo wow fadeIn" data-wow-delay="1250ms">
+			<img src="assets/images/kv/kv_title.png" alt="AI素養課程" class="title wow zoomIn" data-wow-delay="1000ms">
+			<img src="assets/images/kv/kv_subtitle.png" alt="從個人到企業都需要的AI超能力" class="subtitle wow fadeInDown"
+				data-wow-delay="1500ms">
+			<div class="tagImg wow fadeIn" data-wow-delay="1500ms">
+				<img src="assets/images/kv/kv_tag1.png" alt="臺灣首發" class="tag1">
+				<img src="assets/images/kv/kv_tag2.png" alt="權威合作" class="tag2">
+				<img src="assets/images/kv/kv_tag3.png" alt="適用百業" class="tag3">
+				<img src="assets/images/kv/kv_tag4.png" alt="素養認證" class="tag4">
+			</div>
+			<a href="index.html#menu3" class="btnStyle wow zoomIn" data-wow-delay="1750ms" title="購買課程"
+				gtm-name="aiatalent2024" gtm-action="大圖直接購買課程" gtm-label="大圖直接購買課程">
+				<span class="txt">購買課程</span>
+			</a>
+		</div>
+	</section>
+
+	<a href="" class="btnFixed" title="成為未來人才！立即購買！" target="_black" rel="noopener noreferrer">成為未來人才！立即購買！</a>
+
+	<main>
+		<section class="blockHeight blockHeight--about" id="menu1">
+			<div class="containerFluid">
+				<h2 class="mjTitle wow fadeInUp" data-wow-delay="250ms">
+					<figure>
+						<img src="assets/images/tt_1.png" alt="學習AI的全新理念">
+					</figure>
+				</h2>
+				<p class="infoTxt wow fadeIn" data-wow-delay="500ms">誰需要學習AI？更多人在討論AI
+					如何取代人工、直接衝擊產業的未來與發展，也成為各方熱議焦點。面對科技帶來的轉型機會與挑戰，你要如何因應？</p>
+				<ul class="aboutBlock">
+					<li class="aboutBlock__item wow fadeIn" data-wow-delay="250ms">
+						<figure>
+							<img src="assets/images/icon/icon_a1.png" alt="理解限制與前景">
+						</figure>
+						<div class="aboutBlock__item__info">
+							<h3 class="itemTitle">理解限制與前景</h3>
+							<p class="txt">面對理解AI與Gen AI對競爭力帶來的巨大衝擊，降低焦慮</p>
+						</div>
+					</li>
+					<li class="aboutBlock__item wow fadeIn" data-wow-delay="500ms">
+						<figure>
+							<img src="assets/images/icon/icon_a2.png" alt="避免導入失敗可能">
+						</figure>
+						<div class="aboutBlock__item__info">
+							<h3 class="itemTitle">避免導入失敗可能</h3>
+							<p class="txt">可以做什麼跟不能做什麼的辨識能力，以利在挑選工具和導入時，提升效率、減少損失</p>
+						</div>
+					</li>
+					<li class="aboutBlock__item wow fadeIn" data-wow-delay="750ms">
+						<figure>
+							<img src="assets/images/icon/icon_a3.png" alt="工具應用與實務">
+						</figure>
+						<div class="aboutBlock__item__info">
+							<h3 class="itemTitle">工具應用與實務</h3>
+							<p class="txt">理解如何與AI協作以提高個人生產力，如prompt運用</p>
+						</div>
+					</li>
+					<li class="aboutBlock__item wow fadeIn" data-wow-delay="500ms">
+						<figure>
+							<img src="assets/images/icon/icon_a4.png" alt="企業策略與佈局">
+						</figure>
+						<div class="aboutBlock__item__info">
+							<h3 class="itemTitle">企業策略與佈局</h3>
+							<p class="txt">透過在不同產業的應用個案，快速想像及轉換成在自身產業中的應用方式及可能</p>
+						</div>
+					</li>
+				</ul>
+				<div class="videoBox">
+					<a class="gtmarea" gtm-name="aiatalent2024" gtm-action="課程預告片" gtm-label="課程預告片" id="videoLink"></a>
+					<div class="video16and9">
+						<iframe id="videoFrame" src="https://www.youtube.com/embed/q3tdJDJANw4?si=puQk-xCcpisWklK2"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<script>
+					document.getElementById('videoLink').addEventListener('click', function (e) {
+						e.preventDefault();
+						document.getElementById('videoFrame').src += "&autoplay=1";
+						$(this).hide();
+					});
+				</script>
+			</div>
+		</section>
+		<section class="blockHeight blockHeight--joint">
+			<div class="containerFluid">
+				<img src="assets/images/logo_cw_n_aischool_pc.png" alt="攜手共創" class="mjPic mjPic--pc wow zoomIn"
+					data-wow-delay="250ms">
+				<img src="assets/images/logo_cw_n_aischool_mb.png" alt="攜手共創" class="mjPic mjPic--mb wow zoomIn"
+					data-wow-delay="250ms">
+
+				<ul class="jointBox">
+					<li class="jointBox__box wow fadeIn" data-wow-delay="250ms">
+						<h3 class="itemTitle">有脈絡的學習</h3>
+						<p>天下創新學院超過十年專業製課經驗，最了解AI初階學習最需要什麼。</p>
+					</li>
+					<li class="jointBox__box wow fadeIn" data-wow-delay="500ms">
+						<h3 class="itemTitle">有節奏的學習</h3>
+						<p>持續優化的天下學習平台，協助學習者針對各單元主題有節奏的學習。</p>
+					</li>
+					<li class="jointBox__box wow fadeIn" data-wow-delay="250ms">
+						<h3 class="itemTitle">全面的學習資源</h3>
+						<p>天下42年累積豐富資料庫，全面輔助AI主題學習，可以成為學習者最佳配課資源。</p>
+					</li>
+					<li class="jointBox__box wow fadeIn" data-wow-delay="500ms">
+						<h3 class="itemTitle">聯手最專業的AI夥伴</h3>
+						<p>攜手台灣人工智慧學校(AIA)的團隊共創課程方向與內容、講者人選，以確保認證為導向的知識學習。</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="blockHeight blockHeight--who" id="menu6">
+			<div class="containerFluid">
+				<img src="assets/images/tt_who.png" alt="誰適合學" class="mjPic wow zoomIn" data-wow-delay="250ms">
+				<ul class="whoBlock">
+					<li class="whoBlock__item wow fadeIn" data-wow-delay="250ms">
+						<figure>
+							<img src="assets/images/icon/icon_b1.png" alt="企業經營者">
+						</figure>
+						<div class="whoBlock__item__info">
+							<h3 class="itemTitle">企業經營者</h3>
+							<p class="txt">想要跟上脈動，保有最佳AI知識素養，提前佈局未來策略</p>
+						</div>
+					</li>
+					<li class="whoBlock__item wow fadeIn" data-wow-delay="500ms">
+						<figure>
+							<img src="assets/images/icon/icon_b2.png" alt="數位轉型管理者">
+						</figure>
+						<div class="whoBlock__item__info">
+							<h3 class="itemTitle">數位轉型管理者</h3>
+							<p class="txt">想了解如何運用新科技賦能給團隊，幫助員工成長</p>
+						</div>
+					</li>
+					<li class="whoBlock__item wow fadeIn" data-wow-delay="250ms">
+						<figure>
+							<img src="assets/images/icon/icon_b3.png" alt="工作高效者">
+						</figure>
+						<div class="whoBlock__item__info">
+							<h3 class="itemTitle">工作高效者</h3>
+							<p class="txt">學會AI底層邏輯與趨勢， 建立正確認知，提高真正效率</p>
+						</div>
+					</li>
+					<li class="whoBlock__item wow fadeIn" data-wow-delay="500ms">
+						<figure>
+							<img src="assets/images/icon/icon_b4.png" alt="人力資源">
+						</figure>
+						<div class="whoBlock__item__info">
+							<h3 class="itemTitle">人力資源</h3>
+							<p class="txt">理解AI趨勢及學習形式的變革， 培育出有能力掌握AI的人</p>
+						</div>
+					</li>
+				</ul>
+
+
+			</div>
+		</section>
+
+		<section class="blockHeight blockHeight--class" id="menu2">
+			<div class="containerFluid">
+				<h2 class="mjTitle wow fadeInUp" data-wow-delay="250ms">
+					<figure>
+						<img src="assets/images/tt_2.png" alt="課程說明">
+					</figure>
+				</h2>
+				<div class="moduleList">
+					<article class="moduleCard">
+						<a href="https://www.cwlearning.com.tw/programs/a85bbe0e-5106-4022-b07c-f55f36b12cb9"
+							title="蔡炎龍" target="_blank" gtm-name="aiatalent2024" gtm-action="Module1介紹"
+							gtm-label="Module1介紹"></a>
+						<figure class="moduleCard__picBox wow fadeIn" data-wow-delay="500ms"><img
+								src="assets/images/speaker_1.png" alt="蔡炎龍"></figure>
+						<div class="moduleCard__infoBox wow fadeIn" data-wow-delay="250ms">
+							<img src="assets/images/module_1.png" alt="module_1" class="num">
+							<h3 class="title">AI基礎，掌握核心概念<br>AI Fundamentals</h3>
+							<p class="subtitle">將知識架構化，降低內部的策略溝通和技術應用</p>
+							<ul class="list ul">
+								<li>人工智慧的範疇與演進</li>
+								<li>什麼是data 資料/數據</li>
+								<li>機器學習介紹</li>
+								<li>深度學習介紹</li>
+								<li>AI重要專有名詞</li>
+								<li>人工智慧的誤解與迷思</li>
+							</ul>
+							<ul class="rule">
+								<li class="rule__box">
+									<span class="name">預計規格</span>
+									<span class="txt">1個小時影片課程，2篇參考文章</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">預計上架</span>
+									<span class="txt">2024.4.3</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">課程定價</span>
+									<span class="txt">NT$3,000</span>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="moduleCard">
+						<a href="https://www.cwlearning.com.tw/programs/86578be0-66e5-45c4-851c-6f05b5468639"
+							title="楊立偉" target="_blank" gtm-name="aiatalent2024" gtm-action="Module2介紹"
+							gtm-label="Module1介紹"></a>
+						<figure class="moduleCard__picBox wow fadeIn" data-wow-delay="500ms"><img
+								src="assets/images/speaker_2.png" alt="楊立偉"></figure>
+						<div class="moduleCard__infoBox wow fadeIn" data-wow-delay="250ms">
+							<img src="assets/images/module_2.png" alt="module_2" class="num">
+							<h3 class="title">快速掌握Gen AI 實用解決指南<br>Generative AI Overview</h3>
+							<p class="subtitle">理解和應用的落差，捕捉新商機和解決複雜問題</p>
+							<ul class="list ul">
+								<li>生成式AI與LLM概論 </li>
+								<li>生成式AI模型與Prompt提問應用 </li>
+								<li>生成式 AI 工具介紹 </li>
+								<li>生成式AI專案的產品流程思考與注意事項</li>
+							</ul>
+							<ul class="rule">
+								<li class="rule__box">
+									<span class="name">預計規格</span>
+									<span class="txt">1個小時影片課程，2篇參考文章，1個音頻課程</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">預計上架</span>
+									<span class="txt">2024.4.3</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">課程定價</span>
+									<span class="txt">NT$3,000</span>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="moduleCard">
+						<a href="https://www.cwlearning.com.tw/programs/ae378a77-d6f0-4dee-ab59-70ea6b80fa96"
+							title="李家岩" target="_blank" gtm-name="aiatalent2024" gtm-action="Module3介紹"
+							gtm-label="Module1介紹"></a>
+						<figure class="moduleCard__picBox wow fadeIn" data-wow-delay="500ms"><img
+								src="assets/images/speaker_3.png" alt="李家岩"></figure>
+						<div class="moduleCard__infoBox wow fadeIn" data-wow-delay="250ms">
+							<img src="assets/images/module_3.png" alt="module_3" class="num">
+							<h3 class="title">聰明地應用AI驅動的專案管理<br>Building AI projects</h3>
+							<p class="subtitle">解決應用AI的選題挑戰，降低團隊協作的障礙</p>
+							<ul class="list ul">
+								<li>機器學習專案工作流程 </li>
+								<li>資料科學專案工作流程 </li>
+								<li>如何選擇AI項目 </li>
+								<li>與人工智慧團隊合作 </li>
+								<li>AI團隊的技術工具</li>
+							</ul>
+							<ul class="rule">
+								<li class="rule__box">
+									<span class="name">預計規格</span>
+									<span class="txt">1個小時影片課程</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">預計上架</span>
+									<span class="txt">2024.5.14</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">課程定價</span>
+									<span class="txt">NT$3,500</span>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="moduleCard">
+						<a href="https://www.cwlearning.com.tw/programs/c01dd1fd-a96b-4640-81a8-0566b4baeabd"
+							title="蔡明順" target="_blank" gtm-name="aiatalent2024" gtm-action="Module4介紹"
+							gtm-label="Module1介紹"></a>
+						<figure class="moduleCard__picBox wow fadeIn" data-wow-delay="500ms"><img
+								src="assets/images/speaker_4.png" alt="蔡明順"></figure>
+						<div class="moduleCard__infoBox wow fadeIn" data-wow-delay="250ms">
+							<img src="assets/images/module_4.png" alt="module_4" class="num">
+							<h3 class="title">未來職場與社會：人工智能將如何重塑我們的世界<br>AI’s Positive Influence on Society and the
+								Future of Work</h3>
+							<p class="subtitle">拓寬對AI正面影響的認知，為未來工作趨勢做好準備</p>
+							<ul class="list ul">
+								<li>人工智慧正面影響 </li>
+								<li>人工智慧應用實務觀念 </li>
+								<li>人工智慧和就業機會 </li>
+								<li>人工智慧在行業/趨勢中的應用</li>
+							</ul>
+							<ul class="rule">
+								<li class="rule__box">
+									<span class="name">預計規格</span>
+									<span class="txt">1個小時影片課程、1篇參考文章、1個音頻課程</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">預計上架</span>
+									<span class="txt">2024.5.3</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">課程定價</span>
+									<span class="txt">NT$4,500</span>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="moduleCard">
+						<a href="https://www.cwlearning.com.tw/programs/b944780d-6623-40c1-a66f-bad4b27d55e9"
+							title="侯宜秀" target="_blank" gtm-name="aiatalent2024" gtm-action="Module5介紹"
+							gtm-label="Module1介紹"></a>
+						<figure class="moduleCard__picBox wow fadeIn" data-wow-delay="500ms"><img
+								src="assets/images/speaker_5.png" alt="侯宜秀"></figure>
+						<div class="moduleCard__infoBox wow fadeIn" data-wow-delay="250ms">
+							<img src="assets/images/module_5.png" alt="module_5" class="num">
+							<h3 class="title">避免AI應用的法律風險<br>The negative impact of AI and related
+								guidelines＆regulations</h3>
+							<p class="subtitle">提供明確指導和倫理原則 提供應對資訊安全挑戰的策略</p>
+							<ul class="list ul">
+								<li>善用人工智慧使用 </li>
+								<li>人工智慧組織配置原則 </li>
+								<li>使用人工智慧之後的智慧財產權思考 </li>
+								<li>導入人工智慧資訊安全需求</li>
+							</ul>
+							<ul class="rule">
+								<li class="rule__box">
+									<span class="name">預計規格</span>
+									<span class="txt">1個小時影片課程、1個音頻課程</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">預計上架</span>
+									<span class="txt">2024.6.4</span>
+								</li>
+								<li class="rule__box">
+									<span class="name">課程定價</span>
+									<span class="txt">NT$4,500</span>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="blockHeight blockHeight--buy" id="menu3">
+			<div class="containerFluid">
+				<h2 class="mjTitle wow fadeInUp" data-wow-delay="250ms">
+					<figure>
+						<img src="assets/images/tt_3.png" alt="課程購買資訊">
+					</figure>
+				</h2>
+				<div class="buyList">
+					<article class="buyList__box wow fadeIn" data-wow-delay="250ms">
+						<a href="https://www.cwlearning.com.tw/program-packages/c3e6f93c-c616-4dac-b37b-55aca96022a4"
+							class="buyCard" title="AI素養套裝課程" target="_blank" gtm-name="aiatalent2024"
+							gtm-action="銷售方案直接購買課程" gtm-label="銷售方案直接購買課程">
+							<div class="tagBar">
+								<span class="tag">早鳥優惠</span>
+								<span class="time">4.30截止</span>
+							</div>
+							<h3 class="title">
+								AI素養<br>套裝課程
+							</h3>
+							<p class="price"><span class="price__nt">NT$</span>9,999</p>
+							<p class="txt">定價18,500元（不含認證費）</p>
+							<div class="btn">立即購買</div>
+						</a>
+						<ul class="buyInfo ul">
+							<li>AI素養課程，5個Module，共5小時 </li>
+							<li>AI素養配課資源，共5小時</li>
+						</ul>
+					</article>
+					<article class="buyList__box wow fadeIn" data-wow-delay="500ms">
+						<a href="https://www.cwlearning.com.tw/program-packages/e67eba33-2e43-46f5-b22a-27976ac4acb0"
+							class="buyCard" title="AI素養套裝課程 + AIA認證" target="_blank" gtm-name="aiatalent2024"
+							gtm-action="銷售方案直接購買課程" gtm-label="銷售方案直接購買課程">
+							<div class="tagBar">
+								<span class="tag">早鳥優惠</span>
+								<span class="time">4.30截止</span>
+							</div>
+							<h3 class="title">
+								AI素養套裝課程<br> + <br>AIA認證
+							</h3>
+							<p class="price"><span class="price__nt">NT$</span>12,999</p>
+							<p class="txt">定價15,000元（含認證費3,000元）</p>
+							<div class="btn">立即購買</div>
+						</a>
+						<ul class="buyInfo ul">
+							<li>AI素養課程，5個Module，共5小時 </li>
+							<li>AI素養配課資源，共5小時 </li>
+							<li>台灣人工智慧學院提供之AI線上認證考試乙次（方案不保證合格，重複考證需要另外付費）</li>
+						</ul>
+					</article>
+					<article class="buyList__box wow fadeIn" data-wow-delay="750ms">
+						<a href="mailto:cxchen@cw.com.tw,yoyochen@cw.com.tw?subject=我對天下學習XAIA認證課程_企業授權方案有興趣"
+							class="buyCard" title="企業授權方案" target="_blank" gtm-name="aiatalent2024"
+							gtm-action="銷售方案直接購買課程" gtm-label="銷售方案直接購買課程">
+							<div class="tagBar">
+								<!-- <span class="tag">早鳥優惠</span>
+								<span class="time">4.30截止</span> -->
+							</div>
+							<h3 class="title">
+								企業授權方案
+							</h3>
+							<p class="price"><span class="price__nt">NT$</span>120,000</p>
+							<p class="txt">定價150,000元（不含認證費）</p>
+							<div class="btn">專人服務</div>
+						</a>
+						<ul class="buyInfo ul">
+							<li>AI素養課程，任選一個Module （長度約1小時），不限觀看人數 </li>
+							<li>天下創新學院AI素養配課資源，任一個Module，均含另含配課資源（長度約1小時）</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="blockHeight blockHeight--info" id="menu4">
+			<div class="containerFluid">
+				<h2 class="mjTitle wow fadeInUp" data-wow-delay="250ms">
+					<figure>
+						<img src="assets/images/tt_4.png" alt="證書資訊">
+					</figure>
+				</h2>
+				<div class="certificate">
+					<div class="certificate__box wow fadeIn" data-wow-delay="250ms">
+						<img src="assets/images/aia_tcl.jpg" alt="證書">
+					</div>
+					<div class="certificate__box certificate__box--info wow fadeIn" data-wow-delay="500ms">
+						<ul class="rule">
+							<li class="rule__box">
+								<span class="name">考試發證單位</span>
+								<span class="txt">財團法人台灣人工智慧學校基金會</span>
+							</li>
+							<li class="rule__box">
+								<span class="name">證書名稱</span>
+								<span class="txt">AI素養級認證(AIATCL™)：AIA Talent Certification in AI Literacy</span>
+							</li>
+						</ul>
+						<p>考試通過後，經考生會員於AIATC網站校對資料後，由圖靈證書公司寄送區塊鏈證書連結</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blockHeight blockHeight--faq" id="menu5">
+			<div class="container">
+				<h2 class="mjTitle wow fadeInUp" data-wow-delay="250ms">
+					<figure>
+						<img src="assets/images/tt_5.png" alt="FAQ">
+					</figure>
+				</h2>
+
+				<div class="faqBook">
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q1：完成購課後，該怎麼上課？</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							請至<a href="https://www.cwlearning.com.tw/" target="_blank"
+								title="天下學習Mastercheers平台">天下學習Mastercheers平台</a>，若已開課的課程，當完成付款且訂單狀態顯示「已付款」，即可開始上課。若購買的課程為「預購課程」或「即將開課」，需等待課程正式開課始得開始上課。
+							<br>
+							(1) 請登入會員後，在上方選單區塊中，找到「我的課程」後，點選該課程即可開啟課程。 <br>
+							(2) 找到訂購課程頁下方課程章節，點選「播放課程影片」即可開始學習。
+						</div>
+					</article>
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q2：請問如何參加考試？</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							若選購「AI素養課程+AIA認證」方案，會由天下學習提供考試資格乙次（方案不保證合格，重複考證需要另外付費）。
+						</div>
+					</article>
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q3：如果只報名部分課程，可以參加考試拿證書嗎?</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							該課程作為素養教材，<span class="red">沒有報名課程</span>也能自行至<a href="https://aiacademy.tw/"
+								target="_blank" title="AIATC網站">AIATC網站</a>台灣人工智慧學校付費報名考試。方案不保證合格，重複考證需要另外付費。 <br>
+							更多考試與證書訊息請洽：<a href="https://aiacademy.tw/" target="_blank"
+								title="AIATC網站">AIATC網站</a>台灣人工智慧學校
+							客服信箱：mailto:service@aiatc.tw
+						</div>
+					</article>
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q4：有哪些付款方式?</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							請一律由課程活動頁面上報名，如需要大量團報(10人以上)，請客服諮詢：(02) 2662-0332 / bill@cw.com.tw
+						</div>
+					</article>
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q5：退費問題</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							課程退費相關規定請參閱<a href="https://www.cwlearning.com.tw/" target="_blank"
+								title="天下學習MasterCheers">天下學習MasterCheers</a>使用者條款說明。
+						</div>
+					</article>
+					<article class="faqBook__box">
+						<div class="qq wow fadeIn" data-wow-delay="250ms">Q6：發票/收據寄送方式</div>
+						<div class="aa wow fadeIn" data-wow-delay="500ms">
+							開立電子發票將於下單後約2-3個工作日開立發派，故請您務必提供E-mail，以便接收電子發票資訊。
+						</div>
+					</article>
+				</div>
+
+			</div>
+		</section>
+		<section class="fullHeight">
+			<div class="fullHeight__line s1"></div>
+			<div class="fullHeight__line s2"></div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<p class="copyright"><a href="#" title="Copyright" target="_blank">Copyright</a> © 2024 天下整合傳播部企劃製作.All
+				rights reserved.版權所有，禁止擅自轉貼節錄</p>
+			<a href="#" title="天下雜誌隱私權政策" target="_blank">天下雜誌隱私權政策</a>
+		</div>
+	</footer>
+	<!--分享(小icon)-->
+	<section class="shareGrid">
+		<a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent('http://site.cwlearning.com.tw/events/aiatalent/index.htm')) ));"
+			class="shareGrid__box">
+			<img src="assets/images/icon/icon_fb.png" alt="facebook">
+		</a>
+
+		<a href="javascript: void(window.open('https://social-plugins.line.me/lineit/share?url='.concat(encodeURIComponent('http://site.cwlearning.com.tw/events/aiatalent/index.htm')) ));"
+			class="shareGrid__box">
+			<img src="assets/images/icon/icon_line.png" alt="line">
+		</a>
+	</section>
+
+</body>
+
+
+<link rel="stylesheet" href="./assets/css/animate.css">
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script>
+	$(function () {
+		//網頁載入時過渡效果
+		$('.js--pageFade').removeClass('js--pageFadeOut');
+	});
+</script>
+<script>
+	/** 捲動事件 */
+	function handleScrollDataLayer() {
+		var progressToSend = [25, 50, 75, 95];
+		var onScroll = function () {
+			var pageHeight = document.body.clientHeight - window.innerHeight;
+			var scrollProgress = (window.scrollY / pageHeight) * 100;
+			// console.log('scrollProgress', Math.round(scrollProgress) + '％');
+			progressToSend.map(function (progress) {
+				if (scrollProgress >= progress) {
+					var eventData = {
+						'event': 'sendEvent',
+						'gtm-name': 'aiatalent2024',
+						'gtm-action': '頁面瀏覽',
+						'gtm-label': '捲動頁面' + progressToSend.shift() + '%',
+					};
+					console.log('eventData', eventData);
+					dataLayer.push(eventData);
+					return;
+				}
+			});
+			if (!progressToSend.length) {
+				document.removeEventListener('scroll', onScroll);
+			}
+		}
+		document.addEventListener('scroll', onScroll);
+	}
+
+	/** utm 連結 */
+	function handleChangeCWLearningUrl() {
+		var urlQueryString = window.location.search;
+		var cwlearningLinks = document.querySelectorAll('.cwlearning-link');
+		if (urlQueryString) {
+			[].slice.call(cwlearningLinks).map(function (link) {
+				var currentLink = link.getAttribute('href');
+				link.setAttribute('href', currentLink + urlQueryString);
+			});
+		}
+	}
+
+	handleChangeCWLearningUrl();
+	handleScrollDataLayer();	
+</script>
+
+</html>
